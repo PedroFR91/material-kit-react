@@ -8,7 +8,6 @@ import { ChartBar as ChartBarIcon } from "../icons/chart-bar";
 import { Cog as CogIcon } from "../icons/cog";
 import { Lock as LockIcon } from "../icons/lock";
 import { Selector as SelectorIcon } from "../icons/selector";
-import { ShoppingBag as ShoppingBagIcon } from "../icons/shopping-bag";
 import { User as UserIcon } from "../icons/user";
 import { UserAdd as UserAddIcon } from "../icons/user-add";
 import { Users as UsersIcon } from "../icons/users";
@@ -27,11 +26,7 @@ const items = [
     icon: <UsersIcon fontSize="small" />,
     title: "Usuarios",
   },
-  {
-    href: "/products",
-    icon: <ShoppingBagIcon fontSize="small" />,
-    title: "Productos",
-  },
+
   {
     href: "/account",
     icon: <UserIcon fontSize="small" />,
